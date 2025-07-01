@@ -129,12 +129,13 @@
 
 .join {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 5rem;
-    padding: 3rem;
+    padding-top: calc(15vmax / 10);
+    padding-bottom: calc(15vmax / 10);
     margin: auto;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1905px;
 }
 
  .join__left-container, 
@@ -215,20 +216,28 @@
 
 .description {
     width: 100%;
-    max-width: 1654px;
+    
 }
 
 
 /* description container one */
 .description__container-one {
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
 }
 
+
+
+.image--one {
+    width: 100%;
+}
+
+
+
 .image--one > img {
-  /* Ask about adding width 100% */
-    max-width: 827px;
-    max-height: 601px;
+  width: 100%;
+  height: auto;
+    
 }
 
 .information-one {
@@ -236,19 +245,35 @@
     flex-direction: column;
     gap: 1rem;
     justify-content: center;
+    padding: 2rem;
+    width: 100%;
+    max-width: 1602px;
 }
 
-.information-one  {
-  padding: 2rem;
-}
 
 
 div.description__container.title--one {
     font-size: 1.5rem;
+    width: 466px;
 }
 
 div.description__container.description-one {
-    max-width: 641px;
-    line-height: 1.1;
+    
+    line-height: 2;
     font-size: 1.5rem;
 }
+
+.button-one > button {
+    font-size: 1rem;
+    font-weight: 900;
+    background: rgb(64, 114, 190);
+    border: none;
+    border-radius: 6.4px;
+    color: #fff;
+    padding: 1rem 1.1rem;
+    width: 244px;
+
+}
+
+/* description container two */
+
