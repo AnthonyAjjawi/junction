@@ -275,5 +275,58 @@ div.description__container.description-one {
 
 }
 
-/* description container two */
+/*  container two */
+.description__container-two {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 4rem;
+}
 
+
+
+.image--two {
+    width: 100%;
+}
+
+
+
+.image--two > img {
+  width: 100%;
+  height: auto;
+    
+}
+
+.information-two {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    padding: 2rem;
+    width: 100%;
+    max-width: 1602px;
+}
+
+
+
+div.description__container.title--two {
+    font-size: 1.5rem;
+    width: 466px;
+}
+
+div.description__container.description-two {
+    
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
+.button-two > button {
+    font-size: 1rem;
+    font-weight: 900;
+    background: rgb(64, 114, 190);
+    border: none;
+    border-radius: 6.4px;
+    color: #fff;
+    padding: 1rem 1.1rem;
+    width: 244px;
+
+}
